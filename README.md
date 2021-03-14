@@ -1,5 +1,8 @@
 # VSCode Extension: Open Related
 
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/kylpo.vscode-open-related.svg)](https://marketplace.visualstudio.com/items?itemName=kylpo.vscode-open-related)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/kylpo.vscode-open-related.svg)](https://marketplace.visualstudio.com/items?itemName=kylpo.vscode-open-related)
+
 Open files related to your current one.
 
 ## Features
@@ -23,7 +26,7 @@ Open your [keybindings.json](https://code.visualstudio.com/docs/getstarted/keybi
 Identify subdirectories to the root file of a related groups by adding to your [settings.json](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) something like:
 
 ```json
-"extension.openRelated.subdirectiories": ["__tests__", "__stories__"]
+"extension.openRelated.subdirectories": ["__tests__", "__stories__"]
 ```
 
 Above's configuration will work well with a folder structure like:
