@@ -2,7 +2,7 @@
   "name": "vscode-open-related",
   "displayName": "Open Related",
   "description": "Open files related to your current one.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "kylpo",
   "license": "(MIT OR Apache-2.0)",
   "engines": {
