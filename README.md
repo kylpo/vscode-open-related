@@ -20,16 +20,16 @@ Open your [keybindings.json](https://code.visualstudio.com/docs/getstarted/keybi
 }
 ```
 
-Identify subdirectories in related groups by adding to your [settings.json](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) something like:
+Identify subdirectories to the root file of a related groups by adding to your [settings.json](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations) something like:
 
 ```json
 "extension.openRelated.subdirectiories": ["__tests__", "__stories__"]
 ```
 
-The configuration will work well with a folder structure like:
+Above's configuration will work well with a folder structure like:
 
 ```
-/MyFile.tsx
+MyFile.tsx
 /__tests__/MyFile.test.tsx
 /__stories__/MyFile.stories.tsx
 ```
@@ -39,7 +39,3 @@ The configuration will work well with a folder structure like:
 ### 1.0.0
 
 Initial release
-
-```
-
-```
