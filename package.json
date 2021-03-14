@@ -3,6 +3,7 @@
   "displayName": "Open Related",
   "description": "Open files related to your current one.",
   "version": "1.0.1",
+  "repository": "github:kylpo/vscode-open-related",
   "publisher": "kylpo",
   "license": "(MIT OR Apache-2.0)",
   "engines": {
