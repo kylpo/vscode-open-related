@@ -25,13 +25,14 @@ export function activate(context: vscode.ExtensionContext) {
         return;
       }
 
+      // Get the relevent path parts for the file
       const { dir, name } = path.parse(
         vscode.workspace.asRelativePath(doc.fileName)
       );
-
       const directoriesInPath = dir.split(path.sep);
       const parentDirectory = directoriesInPath.pop();
 
+      // Build query, based on whether this file is a top-level or in a subdirectory of the group
       const query =
         parentDirectory != null && subdirectories.includes(parentDirectory)
           ? `${directoriesInPath.join(path.sep)}/${name.split(".")[0]}`
