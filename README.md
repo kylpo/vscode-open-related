@@ -49,6 +49,7 @@ Initial release
 
 - [How to Make A Visual Studio Code Extension [to Generate Ducks] | by Van Huynh](https://itnext.io/how-to-make-a-visual-studio-code-extension-77085dce7d82)
 - [How to write file if parent folder doesn't exist?](https://stackoverflow.com/questions/16316330/how-to-write-file-if-parent-folder-doesnt-exist#)
+- [nocksock/vscode-quick-open-create](https://github.com/nocksock/vscode-quick-open-create)
 - [vscode-open-related-files/relatedFiles.ts](https://github.com/GeorgeSG/vscode-open-related-files/blob/master/src/relatedFiles.ts)
 
 ## Similar Extensions
